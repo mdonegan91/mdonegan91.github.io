@@ -1,9 +1,18 @@
 body  {
-  background-color: olive;
-  color: white;
-  font-family: arial;
-}
-
-h1, h2  {
+  background: white;
+  color: black;
+  font-family: helvetica;
   text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.contact  {
+  font-weight: bold;
+}
+hr {
+  width: 1000px;
+}
+ul {
+  list-style-position: inside;
 }

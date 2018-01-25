@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body  {
+  background: white;
+  color: black;
+  font-family: helvetica;
+  color: #222222;
+  text-align: center;
+}
+
+a {
+  color: #6ABF52;
+  text-decoration: none;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+img {
+  width: 40%;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  padding: 20px;
+}
+
+ul {
+  padding: 20px;
+}
+
+footer {
+  background-color: #cccccc;
+  padding: 20px;
+}
+
+hr {
+  margin: 20px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.contact  {
+  font-weight: bold;
+}
