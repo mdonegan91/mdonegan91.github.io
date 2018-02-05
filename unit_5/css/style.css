@@ -24,10 +24,6 @@ a {
   text-decoration: none;
 }
 
-nav {
-  padding: .8em 0;
-}
-
 nav a{
   margin-right: 1.5em;
 }
@@ -63,10 +59,35 @@ input {
   margin-bottom: 2em;
 }
 
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  background-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+section {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+main {
+  background-color: #FFC675;
+  border: 1px black solid;
+  padding: 20px;
+}
+
 footer {
   text-align: center;
   background-color: #cccccc;
   padding: .8em 0;
+  border: 1px black solid;
 }
 
 #wrapper  {
