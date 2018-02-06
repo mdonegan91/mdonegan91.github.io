@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 * {
   padding: 0;
@@ -6,17 +6,17 @@
 }
 
 body  {
-  font-size: 18px;
+  font-size: 16px; /*1em=16px*/
   background: white;
   color: black;
-  font-family: baskerville, serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #222222;
   text-align: center;
 }
 
 p {
   line-height: 1.5em;
-  margin: 1.5em;
+  margin: 2em;
 }
 
 a {
@@ -26,28 +26,33 @@ a {
 
 nav a{
   margin-right: 1.5em;
+  font-size: .75em;
+  letter-spacing: .25em;
 }
 
 img {
-  width: 15%;
+  width: 40%;
   padding: .8em 0;
   display: block;
   margin: 0 auto;
 }
 
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   padding: .8em 0;
-  border-bottom: 2px solid black;
   display: inline-block;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.25em;
 }
 
 ul {
@@ -60,27 +65,32 @@ input {
 }
 
 header {
-  background-color: #FFED74;
   border: 1px black solid;
   padding: 20px;
+  margin: 2em;
 }
 
 nav {
-  background-color: #E8C66A;
   border: 1px black solid;
   padding: 20px;
 }
 
 section {
-  background-color: #FFE2B8;
   border: 1px black solid;
   padding: 20px;
+  margin: 2em;
 }
 
 main {
-  background-color: #FFC675;
   border: 1px black solid;
   padding: 20px;
+  margin: 2em;
+}
+
+aside {
+  border: 1px black solid;
+  padding: 20px;
+  margin: 2em;
 }
 
 footer {
@@ -88,11 +98,18 @@ footer {
   background-color: #cccccc;
   padding: .8em 0;
   border: 1px black solid;
+  margin: 2em;
 }
 
-#wrapper  {
+#wrapper {
   max-width: : 600px;
-  margin: 0 auto;
+  margin: 2em auto;
+  width: 50em;
+}
+
+.image {
+  width: 10em;
+  margin-top: 2em;
 }
 
 .contact  {
