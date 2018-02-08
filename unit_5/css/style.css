@@ -7,7 +7,7 @@
 }
 
 body  {
-  font-size: 16px; /*1em=16px*/
+  font-size: 18px; /*1em=16px*/
   background: white;
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
@@ -20,16 +20,26 @@ p {
   margin: 2em;
 }
 
+nav {
+  padding: 5px;
+}
+
 a {
   color: #6ABF52;
   text-decoration: none;
+  padding: 10px;
+  letter-spacing: .2em;
 }
 
-nav a{
-  margin-right: 1.5em;
+nav a {
   font-size: .75em;
-  letter-spacing: .25em;
   text-transform: uppercase;
+  margin: 1.5em;
+  display: block;
+}
+
+a:hover{
+  color: #aaaaaa;
 }
 
 img {
@@ -39,8 +49,9 @@ img {
   margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
   padding: .8em 0;
   display: inline-block;
 }
@@ -57,6 +68,10 @@ h3 {
   font-size: 2.25em;
 }
 
+h4{
+  font-size: 1.5em
+}
+
 ul {
   padding: .8em 0;
   list-style-position: inside;
@@ -70,11 +85,7 @@ header {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
-}
-
-nav {
-  border: 1px black solid;
-  padding: 20px;
+  background-color: #cccccc;
 }
 
 section {
@@ -95,6 +106,12 @@ aside {
   margin: 2em;
 }
 
+article {
+  border: 1px black solid;
+  padding: 20px;
+  margin: 2em;
+}
+
 footer {
   text-align: center;
   background-color: #cccccc;
@@ -106,14 +123,16 @@ footer {
 #wrapper {
   max-width: : 600px;
   margin: 2em auto;
-  width: 50em;
 }
 
 .image {
-  width: 210px;
+  width: 100px;
   margin-top: 2em;
 }
 
-.contact  {
-  font-weight: bold;
+.column {
+  width: 260px
+  height: 300px
+  padding: 20px
+  margin: 0;
 }

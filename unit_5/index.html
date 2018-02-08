@@ -5,6 +5,7 @@
 <head>
   <title>Rebuilding Together Portland</title>
 
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
    <link rel="shortcut icon" href="https://rebuildingtogether.org/sites/all/themes/bootstrap_dev/bootstrap_subtheme/favicon.ico"/>
@@ -12,62 +13,96 @@
 
 <body>
   <div id="wrapper">
-    <header>
-        <nav id="services">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Volunteers</a>
-        <a href="#">House Captains</a>
-        <a href="#">Homeowners</a>
-        <a href="#">Non-Profits</a>
-        <a href="#">Board of Directors</a>
-        <a href="#">Sponsors and Partners</a>
-        <a href="#">Project Photos</a>
-      </nav>
-      <img src="images/rtp_logo.png" alt="rebuilding together portland logo" title="rebuilding together portland logo" class="image">
+      <header id="logo">
+        <img src="images/rtp_logo.png" alt="rebuilding together portland logo" title="rebuilding together portland logo" class="image">
 
-      <h1>Rebuilding Together Portland</h1>
-    </header>
+        <nav class="clearfix">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
 
-    <section id="about">
+  <div>
+    <section class="column" id="column1">
       <h2>Welcome to Rebuilding Together Portland</h2>
-
-      <p>For the past 26 years, Rebuilding Together Portland has been helping low-income homeowners in the City of Portland!</p>
-
-      <p>Rebuilding Together Portland is a nonprofit organization that assists low-income homeowners with needed home repairs at no cost to the homeowner. We help the elderly, people with disabilities, families with children, and Veterans throughout the City. Repairs span from carpentry, plumbing, and electrical, to painting, debris removal, and more. All work is completed by volunteers, both skilled and general. We have two programs, the National Rebuild Day and the Safe and Healthy Repair Program to help Portland homeowners! </p>
     </section>
 
-    <main>
-      <h3>We are excited to announce our Safe and Healthy Repair program!</h3>
+    <section class="column" id="column2">
+      <p>Rebuilding Together Portland is a nonprofit organization that assists low-income homeowners with needed home repairs at no cost to the homeowner. </p>
 
-      <ul>
-        <li>Small carpentry repairs like broken or rotted steps</li>
-        <li>Installation of grab bars, handrails, raised toilets, and smoke detecors throughout your home</li>
-        <li>Small electrical repairs</li>
-        <li>Leaky faucets, toilets that don't flush, or other minor plumbing issues</li>
-      </ul>
+      <button type="button">Donate</button>
+      <button type="button">Volunteer</button>
+    </section>
+  </div>
 
-      <img src="images/national_rebuild_day.jpg" alt="rebuild day group photo" title="rebuild day group photo">
+  <div>
+    <section class="column" id="column3">
+      <h4>National Rebuild Day</h4>
 
-      <p><a href="#"> We have some great photos</a> from past year's project days.Thank you to the photographers that volunteer their time to document the work that our wonderful volunteers complete during the year.</p>
-    </main>  
+      <p>Mark your calendars! April 28th is our next National Rebuild Day</p>
+    </section>
+
+    <section class="column" id="column4">
+      <h4>Safe and Healthy Repair Program</h4>
+
+      <p>We are excited our year round program for homeowners who need assistance with small carpentry, plumbing and electrical issues</p>
+    </section>
+
+    <section class="column" id="column5">
+      <h4>Project Photos</h4>
+
+      <p>Thank you to the photographers that volunteer their time to document the work our volunteers complete throughout the year.</p>
+    </section>  
+  </div>
+
+  <div>
+    <section class="column" id="column6">
+      <h4>Homeowners</h4>
+
+      <p>Click here for more information about eligibility</p>
+    </section>
+
+    <section class="column" id="column7">
+      <h4>Non-Profits</h4>
+
+      <p>Free facility repairs available for non-profits. CLick here for more information</p>
+    </section>
+
+    <section class="column" id="column8">
+      <h4>House Captains</h4>
+
+      <p>Information for potential house captains and project leads</p>
+    </section>
+  </div>
+
+    <article>
+        <p>Subscribe to our mailing list</p>
+        <input type=email placeholder= "email address">
+        <input type="submit">
+    </article>
 
     <aside>
-      <h3>Contact Information</h3>
+      <h4>Contact Information</h4>
 
       <p class="contact">Rebuilding Together Portland</p>
 
       <p>Mike Malone - Executive Director<br>
-      <a href="mailto:mikemalone@rebuildingtogetherportland.org">mikemalone@rebuildingtogetherportland.org</a><br>
+      <p>
+        <a href="mailto:mikemalone@rebuildingtogetherportland.org">mikemalone@rebuildingtogetherportland.org</a><br>
+      </p>
       Phone 503.943.7515 | Fax 503.943.7322<br>
       5000 N. Willamette Blvd. Portland, OR 97203-5798<br></p>
-
-      <p>Subscribe to our mailing list<br>
-        <input type=email placeholder= "email address">
-        <input type="submit"></p>
     </aside>
 
-    <footer>&copy; 2011 Rebuilding Together Portland
+    <footer>
+      <p>&copy; 2011 Rebuilding Together Portland</p>
+
+      <nav class="clearfix">
+        <a href="#">Sponsors & Partners</a>
+        <a href="#">Board of Directors</a>
+        <a href="#">Facebook, etc.</a>
+      </nav>
     </footer>
   </div>
 </body>
