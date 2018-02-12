@@ -86,12 +86,14 @@ header {
   padding: 20px;
   margin: 2em;
   background-color: #cccccc;
+  clear: both;
 }
 
 section {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
+  clear: both;
 }
 
 main {
@@ -104,12 +106,14 @@ aside {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
+  clear: both;
 }
 
 article {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
+  clear: both;
 }
 
 footer {
@@ -118,6 +122,11 @@ footer {
   padding: .8em 0;
   border: 1px black solid;
   margin: 2em;
+  clear: both;
+}
+
+div {
+  width: 50%;
 }
 
 #wrapper {
@@ -135,4 +144,13 @@ footer {
   height: 300px
   padding: 20px
   margin: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
