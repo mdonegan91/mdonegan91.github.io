@@ -22,6 +22,7 @@ p {
 
 nav {
   padding: 5px;
+  float: right;
 }
 
 a {
@@ -35,7 +36,6 @@ nav a {
   font-size: .75em;
   text-transform: uppercase;
   margin: 1.5em;
-  display: block;
 }
 
 a:hover{
@@ -47,6 +47,7 @@ img {
   padding: .8em 0;
   display: block;
   margin: 0 auto;
+  float: left;
 }
 
 h1, h2, h3, h4 {
@@ -86,14 +87,12 @@ header {
   padding: 20px;
   margin: 2em;
   background-color: #cccccc;
-  clear: both;
 }
 
 section {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
-  clear: both;
 }
 
 main {
@@ -106,14 +105,12 @@ aside {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
-  clear: both;
 }
 
 article {
   border: 1px black solid;
   padding: 20px;
   margin: 2em;
-  clear: both;
 }
 
 footer {
@@ -122,15 +119,13 @@ footer {
   padding: .8em 0;
   border: 1px black solid;
   margin: 2em;
-  clear: both;
 }
 
-div {
-  width: 50%;
+div{
+  width: 60%;
 }
 
 #wrapper {
-  max-width: : 600px;
   margin: 2em auto;
 }
 
