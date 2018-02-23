@@ -33,7 +33,6 @@ a {
   text-decoration: none;
   color: #6ABF52;
   padding: 10px;
-  letter-spacing: .2em;
 }
 
 nav a:link{
@@ -46,7 +45,7 @@ nav a:link{
   letter-spacing: 2px;
 }
 
-nav a:hover{
+a:hover{
   color: #aaaaaa;
 }
 
@@ -79,6 +78,7 @@ h3{
 
 h4{
   font-size:1.5em;
+  color: #cccccc;
 }
 
 p {
