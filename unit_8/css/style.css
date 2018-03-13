@@ -143,6 +143,18 @@ footer {
   display: none;
 }
 
+.button {
+    background-color: none;
+    border-color: #6ABF52;
+    color: #6ABF52;
+    padding: 15px 32px;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 @media only screen and (min-width: 1000px) {
   #wrapper{
     width: 800px;
